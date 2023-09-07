@@ -1,0 +1,246 @@
+*{
+    background-color: black; 
+}
+
+html, body {
+width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+     
+}
+  
+  a:visited {
+    color:white;
+}
+
+  a:hover {
+    color: red;
+}
+
+.image {
+    height: 300px;
+    width: 100%;
+    background-image: url("/Users/dariapressley/Desktop/ucla-bootcamp/homework/portfolio/portfolio/assets/css/images/banner 6.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.headshot {
+    border-radius: 20px 0px 0px 20px;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: solid black;
+  
+}
+
+h1 {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    color: white;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px;
+    display: inline;
+}
+
+.link{
+    list-style-type: none;
+    padding: 20px; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+section {
+    color: white;
+}
+
+.content {
+    display: flex;
+    margin: 25px 0px;
+    padding: 10px 0px; 
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.content > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 25px;
+    border-right: 4px solid white;
+}
+
+
+.content > div {
+    flex: 0 0 75%;
+}
+
+.content p {
+    margin-bottom: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+
+main div {
+    position: relative;
+  }
+
+
+.samples {
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 0px;
+    background-color: color(from color srgb r g b);
+    padding: 100px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-left: 300px;
+}
+
+#sampleone {
+    width: 800px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 0px;
+    background-image: url("/Users/dariapressley/Desktop/ucla-bootcamp/homework/portfolio/portfolio/assets/css/images/online-reputation-management.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block; 
+    text-align: center; 
+ } 
+
+ h3 {
+    position: absolute;
+    text-align: left;
+    border: solid white;
+    border-radius: 0px;
+    padding: 10px;
+ }
+
+ #boxtwo {
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 0px;
+    background-image: url("/Users/dariapressley/Desktop/ucla-bootcamp/homework/portfolio/portfolio/assets/css/images/sample2.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: block; 
+    text-align: center; 
+ }
+
+ #boxthree {
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 0px;
+    background-image: url("/Users/dariapressley/Desktop/ucla-bootcamp/homework/portfolio/portfolio/assets/css/images/sample2.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: block; 
+    text-align: center; 
+ }
+ 
+ #boxfour {
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 0px;
+    background-image: url("/Users/dariapressley/Desktop/ucla-bootcamp/homework/portfolio/portfolio/assets/css/images/sample2.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: block; 
+    text-align: center; 
+ }
+
+ #boxfive {
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 0px;
+    background-image: url("/Users/dariapressley/Desktop/ucla-bootcamp/homework/portfolio/portfolio/assets/css/images/sample2.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: block; 
+    text-align: center; 
+ }
+
+.contact > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid white;
+}
+
+.contact {
+    display: flex;
+    margin: 25px 0px;
+    padding: 10px 0px; 
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.information {
+    list-style-type: none;
+    padding: 20px; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.information li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin-right: 200px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 14px;
+      }
+}
+  
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+      }
+}
+  
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 10px;
+      }
+}
+  
