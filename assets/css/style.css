@@ -40,19 +40,25 @@ a {
 }
 
 h1 {
-    position: absolute;
-    top: 300px;
-    left: 150px;
     color: white;
     background-color: transparent;
     font-family: 'Times New Roman', Times, serif; 
     font-size: 40px;
-    display: inline;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
+
+}
+
 
 .link{
     list-style-type: none;
-    padding: 20px; 
     display: flex;
     justify-content: flex-end;
 }
@@ -60,11 +66,10 @@ h1 {
 .link li {
     color: white;
     list-style: none;
-    display: inline-block;
-    margin-right: 20px;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
+    padding: 0px 10px;
+
 }
 
 section {
