@@ -135,7 +135,7 @@ main div {
     height: 600px;
     border: 2px solid white;
     border-radius: 0px;
-    background-image: url("images/online-reputation-management.jpg");
+    background-image: url("./images/online-reputation-management.jpg");
     background-size: cover;
     background-position: center;
     display: block; 
@@ -155,7 +155,7 @@ main div {
     height: 300px;
     border: 2px solid white;
     border-radius: 0px;
-    background-image: url("images/sample2.jpeg");
+    background-image: url("./images/sample2.jpeg");
     background-size: cover;
     background-position: center;
     display: block; 
@@ -167,7 +167,7 @@ main div {
     height: 300px;
     border: 2px solid white;
     border-radius: 0px;
-    background-image: url("images/sample2.jpeg");
+    background-image: url("./images/sample2.jpeg");
     background-size: cover;
     background-position: center;
     display: block; 
@@ -179,7 +179,7 @@ main div {
     height: 300px;
     border: 2px solid white;
     border-radius: 0px;
-    background-image: url("images/sample2.jpeg");
+    background-image: url("./images/sample2.jpeg");
     background-size: cover;
     background-position: center;
     display: block; 
