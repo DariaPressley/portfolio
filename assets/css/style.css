@@ -150,12 +150,12 @@ main div {
     padding: 10px;
  }
 
- #boxtwo {
+ #sampletwo{
     width: 350px;
     height: 300px;
     border: 2px solid white;
     border-radius: 0px;
-    background-image: url("./images/sample2.jpeg");
+    background-image: url("./images/earworm-screenshot.png");
     background-size: cover;
     background-position: center;
     display: block; 
